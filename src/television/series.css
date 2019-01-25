@@ -1,0 +1,72 @@
+#seriesForm {
+    display: flex;
+    flex-direction: column;
+    margin: 10% 30% 0;
+}
+
+#seriesInput {
+    height: 30px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+#seriesSubmit {
+    height: 40px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    color: #FFFFFF;
+    background-color: #504f75;
+    font-size: 25px;
+}
+
+.seriesTitle {
+    text-align: center;
+}
+
+.seasonNumberContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    margin: 0 20% 0 20%;
+}
+
+.currentSeasonNumber {
+    height: 36px;
+    width: 36px;
+    margin: 3px;
+    line-height: 36px;
+    border-radius: 24px;
+    color: #FFFFFF;
+    font-size: 23px;
+    background-color: rgb(78, 116, 131);
+}
+
+.seasonNumber {
+    height: 34px;
+    width: 34px;
+    margin: 3px;
+    line-height: 34px;
+    border-radius: 24px;
+    color: #FFFFFF;
+    font-size: 20px;
+    background-color: rgb(126, 154, 165);
+}
+
+.episodeCheckboxContainer {
+    display: flex;
+    align-items: center;
+}
+
+.episodeContainer {
+    margin: 0 25% 0 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+episodeReleaseDate {
+
+}
